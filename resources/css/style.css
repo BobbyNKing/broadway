@@ -1,4 +1,4 @@
-h1, li, h2, h3, p, h4 {
+h1, h2, h3, p, h4 {
   font-family: helvetica;
   text-align: center;
 
@@ -8,6 +8,20 @@ h1 {
   font-size: 70px;
   color: white;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
 }
 
 .bkimage {
@@ -22,9 +36,16 @@ h1 {
 
 #headernav {
   text-align: center;
+  color: white;
 }
 
 #footernav {
   text-align: left;
   background-color: dimgray;
+}
+
+#copyw {
+  font-size: 11px;
+  font-family: Helvetica;
+  color: white;
 }
